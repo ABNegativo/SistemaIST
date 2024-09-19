@@ -1,0 +1,235 @@
+@import url(CSSPerfil/CSSPerfilAdmin.css);
+
+html, body {
+    overflow: hidden;
+}
+
+.edit-logo-header {
+
+    margin-bottom: 2em;
+    width: 15em;
+
+}
+
+.edit-bem_vindo {
+
+    margin: 0;
+
+}
+
+.container_elementos {
+
+    height: 40vw;
+    background: #ffffff !important;
+    border-radius: 8px;
+    padding: 2em;
+    box-shadow: 2px 2px 12px rgb(161 161 161);
+    overflow-y: auto;
+
+}
+
+.row {
+
+    justify-content: center;
+
+}
+
+@media (min-width: 768px) {
+
+    .container_elementos {
+
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+
+    }
+    
+}
+
+.container_elementos::-webkit-scrollbar {
+
+    width: 6px; 
+
+}
+
+.container_elementos::-webkit-scrollbar-track {
+
+    background: #b8b8b8; 
+    border-radius: 0px 8px 8px 0px;
+
+}
+
+.container_elementos::-webkit-scrollbar-thumb {
+
+    background-color: #1D4796;
+    border-radius: 0px 8px 8px 0px;
+
+}
+
+.mouse-click {
+
+    cursor: pointer;
+    user-select: none;
+
+}
+
+.icone_sadBar {
+
+    width: 4em;
+    margin-bottom: .5em;
+
+}
+
+.li-acessa_nav {
+
+    transition: transform .3s ease;
+
+}
+
+.li-acessa_nav:hover {
+
+    transform: scale(1.1,1.1);
+
+}
+
+.btn-save {
+
+    width: 12em !important;
+
+}
+
+@media (min-width: 769px) {
+
+.li-acessa {
+
+    transition: transform .1s ease;
+
+}
+
+.li-acessa:hover {
+
+    background: #1D4597;
+    border-radius:0 .8em .8em 0;
+    border-right: 2px solid rgb(221, 8, 2);
+    box-shadow: 0px 2px 16px rgba(3, 26, 90, 0.774);
+    transform: scale(1.1,1);
+
+}
+
+}
+
+.margin-label {
+
+    margin: 2em 0 0 .2em;
+
+}
+
+.sadbar-mobile {
+
+    display: none;
+
+}
+
+@media (max-width: 768px) {
+
+    #content {
+
+        display: flex;
+        flex-direction: column;
+        background-image: url(/images/bgIndexMobile.png) !important;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-size: contain; 
+
+    }
+
+    .d-flex {
+
+        display: flex !important;
+        flex-direction: column;
+
+    }
+
+    .sadbar-mobile {
+
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+        padding: .8em;
+        background: #335aab;
+        color: #fff;
+
+    }
+
+    .container-ul {
+
+        text-align: center;
+
+    }
+
+    .container-icons {
+
+        background: #1D4597;
+        display: flex;
+        height: 2.5em;
+        width: 2.5em;
+        border-radius: 8px;
+        border: solid 1px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0px !important;
+
+
+    }
+
+    .edit-text_a {
+
+        color: rgb(255, 255, 255) !important;
+
+    }
+
+    .edit-text_a:hover {
+
+        color: rgb(255, 255, 255) !important;
+
+    }
+
+    .container-icons_span {
+
+        font-size: 12px;
+
+    }
+
+    .reset_text {
+
+        margin: 0;
+
+    } 
+
+    .sidebarLateral {
+
+        display: none;
+
+    }
+
+    .edit-logo-header {
+
+        margin-bottom: 0em;
+
+    }
+
+    .container_elementos {
+
+        height: 62vh;
+
+    }
+
+    .edit-bem_vindo {
+
+        font-size: 16px;
+
+    }
+
+}

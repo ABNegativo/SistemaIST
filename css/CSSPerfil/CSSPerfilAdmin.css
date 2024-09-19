@@ -1,0 +1,46 @@
+.h3_700 {
+
+    font-weight: 700;
+
+}
+
+@media (max-width: 768px) {
+
+    .h3_700 {
+
+        text-align: center;
+
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .h3-perfil_admin {
+
+        font-size: 16px;
+    
+    }
+
+    .h3_700 {
+
+        font-size: 22px;
+
+    }
+
+}
+
+.container-titulo_container_elementos {
+
+    text-align: center;
+
+}
+
+.container_btn-cadastro {
+
+    margin-top: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
