@@ -1,0 +1,85 @@
+<section class="container_elementos">
+  <div class="container-titulo_container_elementos">
+      <h3 class="h3_700">Cadastro de coletas</h3>
+  </div>
+
+  <div class="container-titulo_container_elementos mb-3" style="margin-top: 4em;">
+    <h4 class="h3-perfil_admin"> Informações do paciente </h4>
+  </div>
+
+  <div class="container-cadastro_eventos">
+      <div>
+      <form class="row g-3">
+          <div class="col-md-6">
+              <label for="inputEmail4" class="form-label margin-label">Nome</label>
+              <input type="text" class="form-control" name="nomePaciente" required>
+          </div>
+          <div class="col-md-6">
+              <label for="inputPassword4" class="form-label margin-label">Data de nascimento</label>
+              <input type="text" class="form-control" id="dataNascimento" name="dataNascimento" required>
+          </div>
+
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label margin-label">Local da coleta</label>
+            <input type="text" class="form-control" name="localColeta" required>
+        </div>
+        <div class="col-md-6">
+            <label for="inputPassword4" class="form-label margin-label">Data da coleta</label>
+            <input type="text" class="form-control" id="dataColeta" name="dataColeta" required>
+        </div>
+
+        <div class="container-titulo_container_elementos mb-3" style="margin-top: 4em;">
+          <h4 class="h3-perfil_admin"> Resultado dos exames </h4>
+        </div>
+
+        <div class="col-12">
+          <label for="validationTooltip04" class="form-label margin-label">Anti-HIV 1 e 2 (teste rapido)</label>
+          <select class="form-select form-control" name="houve_financi" id="h_financiamento" id="h_financiamento" aria-label="Default select example" required>
+            <option disabled selected hidden></option>
+            <option value="Não realizado">Não realizado</option>
+            <option value="Não reagente">Não reagente</option>
+            <option value="Reagente">Reagente</option>
+          </select>
+        </div>
+
+        <div class="col-12">
+          <label for="validationTooltip04" class="form-label margin-label">Hepatite B (teste rapido) - HBsAg</label>
+          <select class="form-select form-control" name="houve_financi" id="h_financiamento" id="h_financiamento" aria-label="Default select example" required>
+            <option disabled selected hidden></option>
+            <option value="Não realizado">Não realizado</option>
+            <option value="Não reagente">Não reagente</option>
+            <option value="Reagente">Reagente</option>
+          </select>
+        </div>
+
+        <div class="col-12">
+          <label for="validationTooltip04" class="form-label margin-label">Hepatite C (teste rapido) - Anti-HCV</label>
+          <select class="form-select form-control" name="houve_financi" id="h_financiamento" id="h_financiamento" aria-label="Default select example" required>
+            <option disabled selected hidden></option>
+            <option value="Não realizado">Não realizado</option>
+            <option value="Não reagente">Não reagente</option>
+            <option value="Reagente">Reagente</option>
+          </select>
+        </div>
+
+        <div class="col-12">
+          <label for="validationTooltip04" class="form-label margin-label">Sifilis (teste rapido)</label>
+          <select class="form-select form-control" name="houve_financi" id="h_financiamento" id="h_financiamento" aria-label="Default select example" required>
+            <option disabled selected hidden></option>
+            <option value="Não realizado">Não realizado</option>
+            <option value="Não reagente">Não reagente</option>
+            <option value="Reagente">Reagente</option>
+          </select>
+        </div>
+
+
+
+        <div class="col-12 container_btn-cadastro">
+          <button type="submit" class="btn btn-primary btn-save">Salvar</button>
+        </div>
+
+      </form>
+      </div>
+  </div>
+  
+</section>
