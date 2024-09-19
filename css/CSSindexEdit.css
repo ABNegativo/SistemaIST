@@ -19,7 +19,7 @@ html, body {
 
 .container_elementos {
 
-    height: 40vw;
+    height: 34vw;
     background: #ffffff !important;
     border-radius: 8px;
     padding: 2em;
@@ -222,7 +222,7 @@ html, body {
 
     .container_elementos {
 
-        height: 62vh;
+        height: 56vh;
 
     }
 
